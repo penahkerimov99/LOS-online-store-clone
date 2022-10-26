@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>İstək siyahısı</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../SCSS/wishlist.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-background"></div>
+    <div class="container-fluid main-header">
+      <div class="container">
+        <div class="row register-section">
+          <div class="button-box col-4">
+            <a class="button-login" href="">
+              Daxil ol
+            </a>
+            <a id="top" class="button-register" href="">
+              Qeydiyyat
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="main-logo2"></div>
+      </div>
+
+      <div class="container main-header-2">
+        <div class="col main-logo"></div>
+        <div class="col-6 main-search">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Axtar" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="col main-basket d-flex">
+          <div class="modalmenu">
+            <i id="open" class="fa-solid fa-bars"></i>
+            <i id="close" class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="baskets d-flex">
+            <div class="basket">
+              <i class="fa-solid fa-cart-shopping">
+                <div class="indexbasket">0</div>
+              </i>
+
+            </div>
+
+            <div class="hearth">
+              <i class="fa-solid fa-heart">
+                <div class="indexhearth">0</div>
+              </i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Scroll-top button-->
+      <div class="topbutton">
+        <a href="#top">
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
+      </div>
+      <!--End Scroll top button-->
+
+      <!--SCROLLING NAV-->
+
+      <nav class="scroll-nav">
+
+        <div class="scroll-nav-items">
+          <ul>
+            <li class="li1"><a href="">
+                <img src="../public/images/icon/category.svg" alt=""> Kateqoriyalar</a>
+
+              <ul class="drop">
+                <li class="li2">
+                  <a href="">
+                    <img src="../public/CatImgs/1617785889ofis-levezimatlari.svg" alt="">
+                    Ofis ləvazimatları
+                  </a>
+                  <div class="drop-1">
+                    <ul class="drop-2">
+                      <li><a href="">Ağardıcı</a></li>
+                      <li><a href="">Çərçivə</a></li>
+                      <li><a href="">Kağız</a></li>
+                      <li><a href="">Marker</a></li>
+                      <li><a href="">Qayçı</a></li>
+                      <li><a href="">Qovluq</a></li>
+                      <li><a href="">Skrepka</a></li>
+                      <li><a href="">Yazı lövhəsi</a></li>
+                      <li><a href="">Bıçaq</a></li>
+                      <li><a href="">Delgəc</a></li>
+                      <li><a href="">Kalkulyator</a></li>
+                      <li><a href="">Masaüstü dəstləri</a></li>
+                      <li><a href="">Qeyd kağızı</a></li>
+                      <li><a href="">Zərf</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li><a href=""><img src="../public/CatImgs/1617786311qida.png" alt="">Qida və İçkilər</a></li>
+                <li><a href=""><img src="../public/CatImgs/1617786118xirdavat.png" alt="">Təsərrüfat malları</a></li>
+                <li><a href=""><img src="../public/CatImgs/1617786259computer-accessories-512.webp" alt="">Elektron
+                    avadanlıq</a></li>
+                <li><a href=""><img src="../public/CatImgs/16468163995165161.png" alt="">Dibçək gülləri</a></li>
+                <li><a href=""><img src="../public/CatImgs/1618572764fbdfbdf.jpg" alt="">Hədiyyəlik</a></li>
+                <li><a href=""><img src="../public/CatImgs/162151268599956.png" alt="">Cofee shop</a></li>
+              </ul>
+
+            </li>
+          </ul>
+
+          <div class="col-4 main-search">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Axtar" aria-label="Recipient's username"
+                aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-2 main-basket d-flex">
+            <div class="basket">
+              <i class="fa-solid fa-cart-shopping">
+                <div class="indexbasket">0</div>
+              </i>
+
+            </div>
+
+            <div class="hearth">
+              <i class="fa-solid fa-heart">
+                <div class="indexhearth">0</div>
+              </i>
+            </div>
+          </div>
+
+
+        </div>
+
+      </nav>
+
+      <!--END IS SCROLLING NAV-->
+
+      <nav class="main-nav">
+        <div class="main-nav1">
+          <ul>
+            <li class="li1 col-2"><a class="responsa" href="">
+                <img src="../public/images/icon/category.svg" alt="">Kateqoriyalar</a>
+
+              <ul class="drop">
+                <li class="li2">
+                  <a href="">
+                    <img src="../public/CatImgs/1617785889ofis-levezimatlari.svg" alt="">
+                    Ofis ləvazimatları
+                  </a>
+                  <div class="drop-1">
+                    <ul class="drop-2">
+                      <li><a href="">Ağardıcı</a></li>
+                      <li><a href="">Çərçivə</a></li>
+                      <li><a href="">Kağız</a></li>
+                      <li><a href="">Marker</a></li>
+                      <li><a href="">Qayçı</a></li>
+                      <li><a href="">Qovluq</a></li>
+                      <li><a href="">Skrepka</a></li>
+                      <li><a href="">Yazı lövhəsi</a></li>
+                      <li><a href="">Bıçaq</a></li>
+                      <li><a href="">Delgəc</a></li>
+                      <li><a href="">Kalkulyator</a></li>
+                      <li><a href="">Masaüstü dəstləri</a></li>
+                      <li><a href="">Qeyd kağızı</a></li>
+                      <li><a href="">Zərf</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li><a href=""><img src="../public/CatImgs/1617786311qida.png" alt="">Qida və İçkilər</a></li>
+                <li><a href=""><img src="../public/CatImgs/1617786118xirdavat.png" alt="">Təsərrüfat malları</a></li>
+                <li><a href=""><img src="../public/CatImgs/1617786259computer-accessories-512.webp" alt="">Elektron
+                    avadanlıq</a></li>
+                <li><a href=""><img src="../public/CatImgs/16468163995165161.png" alt="">Dibçək gülləri</a></li>
+                <li><a href=""><img src="../public/CatImgs/1618572764fbdfbdf.jpg" alt="">Hədiyyəlik</a></li>
+                <li><a href=""><img src="../public/CatImgs/162151268599956.png" alt="">Cofee shop</a></li>
+              </ul>
+
+            </li>
+
+            <li class="none"><a class="a2" href="">Haqqımızda</a></li>
+            <li class="none"><a class="a2" href="">Yeni</a></li>
+            <li class="none"><a class="a2" href="">Endirimlər</a></li>
+            <li class="none"><a class="a2" href="">Ən çox satılanlar</a></li>
+            <li class="none">
+              <a class="a2" href="">
+                Şərtlər <i class="fa-solid fa-chevron-right"></i>
+              </a>
+
+              <div class="drop-3">
+                <ul class="drop-4">
+                  <li><a href="">Çatdırılma</a></li>
+                  <li><a href="">Geri Qaytarılma və dəyişdirmə</a></li>
+                </ul>
+              </div>
+
+            </li>
+            <li class="none"><a class="a2" href="">Əlaqə</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+  </header>
+
+  <!-- Modal menu -->
+
+  <div class="dis-none">
+    <div class="Modalmenu">
+      <div class="main-search3">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Axtar" aria-label="Recipient's username"
+            aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <div class="modal-nav-items">
+        <ul>
+          <li><a href="">Haqqımızda</a></li>
+          <li><a href="">Yeni</a></li>
+          <li><a href="">Endirimlər</a></li>
+          <li><a href="">Çatdırılma</a></li>
+          <li><a href="">Geri qaytarılma və dəyişdirmə</a></li>
+          <li><a href="">Əlaqə</a></li>
+        </ul>
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+  <!-- End -->
+
+
+
+  <!-- Dropdown menu -->
+  <div class="accordion accordion-flush responsive-accord" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header drop-head" id="flush-headingOne">
+        <button class="accordion-button collapsed responsive-category" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          <img src="../public/images/icon/category.svg" alt=""> Kateqoriyalar
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body  respons-drop">
+          <ul class="d-flex flex-column">
+            <li><a href="">Ofis ləvazimatları</a></li>
+            <li><a href="">Qida və İçkilər</a></li>
+            <li><a href="">Təsərrüfat malları</a></li>
+            <li><a href="">Elektron avadanlıq</a></li>
+            <li><a href="">Dibçək gülləri</a></li>
+            <li><a href="">Hədiyyəlik</a></li>
+            <li><a href="">Coffee shop</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  End is Dropdown menu -->
+
+  <main>
+
+
+    <div class="container-fluid main-cont">
+
+      <div class="row1">
+        <h3>İstək siyahısı</h3>
+        <div class="line"></div>
+      </div>
+
+      <div class="container-fluid products">
+     
+
+
+      </div>
+
+    </div>
+    </div>
+
+
+  </main>
+
+  <footer>
+
+    <div class=" footer-sec">
+      <div class=" footer-logo">
+        <a href="">
+          <div class="logo"></div>
+        </a>
+        <div class="sites">
+          <div class="site"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="site"><i class="fa-brands fa-instagram"></i></div>
+        </div>
+
+      </div>
+      <div class=" footer-nav-1">
+        <ul>
+          <li><b>Kateqoriyalar</b></li>
+          <li><a href="">Ofis ləvazimatları</a></li>
+          <li><a href="">Qida və İçkilər</a></li>
+          <li><a href="">Təsərrüfat malları</a></li>
+          <li><a href="">Elektron avadanlıq</a></li>
+          <li><a href="">Dibçək gülləri</a></li>
+          <li><a href="">Hədiyyəlik</a></li>
+          <li><a href="">Coffee shop</a></li>
+        </ul>
+      </div>
+      <div class=" footer-nav-2">
+        <ul>
+          <li><b>Menyular</b></li>
+          <li><a href="">Haqqımızda</a></li>
+          <li><a href="">Çatdırılma</a></li>
+          <li><a href="">Geri qaytarılma və dəyişdirmə</a></li>
+          <li><a href="">Əlaqə</a></li>
+        </ul>
+      </div>
+      <div class=" footer-nav-3">
+        <ul>
+          <li><b>Əlaqə</b></li>
+          <li>Tel.:(994) 99 832 07 77</li>
+          <li>E-mail:info@los.az</li>
+          <li>Ünvan:Ziya Bünyadov pr, 1965</li>
+          <li>Çinar Park Biznes Mərkəzi</li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          facebook: "588833372666554", // Facebook page ID
+          whatsapp: "+994556114434", // WhatsApp number
+          call_to_action: "Bize mesaj gönderin", // Call to action
+          button_color: "#A8CE50", // Color of button
+          position: "left", // Position may be 'right' or 'left'
+          order: "whatsapp,facebook", // Order of buttons
+      };
+      var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /GetButton.io widget -->
+
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="../JS/wishlist.js"></script>
+</body>
+
+</html>

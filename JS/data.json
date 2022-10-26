@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "image": "../public/Products/1616566785a-096_12_səhifə_tikən_2.VKm4M.jpg",
+        "name": "Stepler",
+        "price": "5 AZN"
+    },
+    {
+        "id": 2,
+        "image": "../public/Products/1616138063a-099_25_vərəq.PjiNN.jpg",
+        "name": "Rezak",
+        "price": "3 AZN"
+    },
+    {
+        "id": 3,
+        "image": "../public/Products/1616753945a005882 2.jpg",
+        "name": "Silgi",
+        "price": "1 AZN"
+    },
+    {
+        "id": 4,
+        "image": "../public/Products/1618473215TL-WR841N-4.jpg",
+        "name": "Modem",
+        "price": "50 AZN"
+    },
+    {
+        "id": 5,
+        "image": "../public/Products/16472551216.jpg",
+        "name": "Gül",
+        "price": "5 AZN"
+    },
+    {
+        "id": 6,
+        "image": "../public/Products/1624347997F9B9E10100307817998932C441489841.png",
+        "name": "Adicto",
+        "price": "5 AZN"
+    },
+    {
+        "id": 7,
+        "image": "../public/Products/161840761621.png",
+        "name": "Kofe",
+        "price": "4.5 AZN"
+    },
+    {
+        "id": 8,
+        "image": "../public/Products/1616588752a-207_60_ədədli.TdNPJ.jpg",
+        "name": "Dəftər",
+        "price": "5 AZN"
+    },
+    {
+        "id": 9,
+        "image": "../public/Products/1624443405Pul üçün skoç Dolphin.jpg",
+        "name": "Skoç",
+        "price": "2 AZN"
+    }
+
+]

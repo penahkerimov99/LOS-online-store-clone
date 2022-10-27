@@ -36,13 +36,13 @@ const basket = document.querySelectorAll('.basket');
 
 basket.forEach(e => {
     e.addEventListener('click', () => {
-        window.location = '../HTML/basket.html'
+        window.location = '../basket.html'
     })
 });
 
 heart.forEach(el => {
     el.addEventListener('click', () => {
-        window.location = '../HTML/wishlist.html'
+        window.location = '../wishlist.html'
     })
 });
 
@@ -123,7 +123,7 @@ window.onload = function () {
 
             name.addEventListener('click', (e) => {
                 e.preventDefault;
-                window.location = '../HTML/productclick.html';
+                window.location = '../productclick.html';
                 localStorage.setItem('name', name.innerText);
                 localStorage.setItem('price', price.innerText);
                 localStorage.setItem('img', img.src);
@@ -136,7 +136,7 @@ window.onload = function () {
             button.addEventListener('click', (el) => {
                 let myArr = [];
                 var old = localStorage.getItem('basket');
-                if (old != null) {
+                if (old != null){
                     old = JSON.parse(old);
                     for (var i = 0; i < old.length; i++) {
                         myArr.push(old[i]);
@@ -162,6 +162,7 @@ window.onload = function () {
             hearth.classList.add('heart');
 
             hearth.addEventListener('click', (el) => {
+               
                 el.target.classList.toggle("filled");
                 indexheart.forEach(element => {
 
@@ -169,10 +170,11 @@ window.onload = function () {
 
                     if (el.target.classList.toggle("filled")) {
                         element.textContent++
+                        
                     } else {
                         element.textContent--
+                       
                     }
-
                 });
 
 

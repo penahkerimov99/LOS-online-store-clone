@@ -317,8 +317,8 @@ header .scroll-nav .scroll-nav-items .main-basket i .indexhearth, header .scroll
 header .topbutton {
   position: fixed;
   z-index: 8888888888;
-  right: 5rem;
-  bottom: 3rem;
+  right: 3rem;
+  bottom: 4.5rem;
 }
 header .topbutton a {
   width: 3rem;
@@ -1194,14 +1194,14 @@ footer .footer-sec .footer-nav-3 ul b {
     width: 50%;
   }
   .grid {
-    grid-template-columns: auto !important;
+    grid-template-columns: 90% !important;
     justify-content: center;
   }
   .grid .productflex {
     width: 100% !important;
   }
   footer {
-    margin-top: 240rem !important;
+    margin-top: 220rem !important;
   }
   footer .footer-sec {
     flex-direction: column;

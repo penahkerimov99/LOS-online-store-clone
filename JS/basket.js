@@ -18,12 +18,15 @@ const logo2 = document.querySelector('.main-logo2')
 
 
 logo2.addEventListener('click', ()=>{
-    window.location = '../HTML/main.html'
+    window.location = '../index.html'
+})
+logo.addEventListener('click', ()=>{
+    window.location = '../index.html'
 })
 
 hearth.forEach(y => {
     y.addEventListener('click',()=>{
-        window.location = '../HTML/wishlist.html'
+        window.location = '../wishlist.html'
     })
 });
 
@@ -78,6 +81,7 @@ let data1 = window.localStorage.getItem('name');
 let data2 = window.localStorage.getItem('price');
 let basket = localStorage.getItem('basket')
 let basket1 = JSON.parse(basket)
+
 
 const wishlist = document.querySelector('#wishlist');
 

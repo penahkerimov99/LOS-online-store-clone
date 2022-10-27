@@ -17,11 +17,11 @@ const logo2 = document.querySelector('.main-logo2')
 
 
 logo2.addEventListener('click', ()=>{
-    window.location = '../HTML/main.html'
+    window.location = '../index.html'
 })
 
 logo.addEventListener('click', ()=>{
-    window.location = '../HTML/main.html'
+    window.location = '../index.html'
 })
 
 
@@ -38,7 +38,7 @@ const basket = document.querySelectorAll('.basket');
 
 basket.forEach(e => {
     e.addEventListener('click', () => {
-        window.location = '../HTML/basket.html'
+        window.location = '../basket.html'
     })
 });
 
@@ -168,8 +168,4 @@ wishlist1.forEach(x => {
             product.appendChild(price)
             product.appendChild(button)
             product.appendChild(hearth)
-
-
-
-        
 })

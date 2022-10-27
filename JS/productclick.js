@@ -11,11 +11,25 @@ const addBasket = document.querySelectorAll('.basket-button');
 const close = document.querySelector('#close');
 const open = document.querySelector('#open');
 const disnone = document.querySelector('.dis-none');
+const logo = document.querySelector('.main-logo');
+const logo2 = document.querySelector('.main-logo2')
+
+console.log('====================================');
+console.log(quantity.innerText);
+console.log('====================================');
+
+logo2.addEventListener('click', ()=>{
+    window.location = '../index.html'
+})
+
+logo.addEventListener('click', ()=>{
+    window.location = '../index.html'
+})
 
 const heart = document.querySelectorAll('.hearth');
 heart.forEach(el => {
     el.addEventListener('click', () => {
-        window.location = '../HTML/wishlist.html'
+        window.location = '../wishlist.html'
     })
 });
 
@@ -23,7 +37,7 @@ const basket = document.querySelectorAll('.basket');
 
 basket.forEach(e => {
     e.addEventListener('click', () => {
-        window.location = '../HTML/basket.html'
+        window.location = '../basket.html'
     })
 });
 
@@ -75,9 +89,24 @@ window.addEventListener('scroll', () => {
 
 addBasket.forEach(e => {
     e.addEventListener('click', (el) => {
+        let myArr = [];
+        var old = localStorage.getItem('basket');
+        if (old != null){
+            old = JSON.parse(old);
+            for (var i = 0; i < old.length; i++) {
+                myArr.push(old[i]);
+            }
+        }
+
+        var newPr = { "name": data1, "price": data2, "img": data3 };
+                myArr.push(newPr);
+                localStorage.setItem('basket', JSON.stringify(myArr));
+                
         indexbasket.forEach(elem => {
             elem.textContent++
         });
+
+
     })
 });
 

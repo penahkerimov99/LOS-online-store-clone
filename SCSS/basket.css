@@ -316,8 +316,8 @@ header .scroll-nav .scroll-nav-items .main-basket i .indexhearth, header .scroll
 header .topbutton {
   position: fixed;
   z-index: 8888888888;
-  right: 5rem;
-  bottom: 3rem;
+  right: 3rem;
+  bottom: 4.5rem;
 }
 header .topbutton a {
   width: 3rem;
@@ -923,6 +923,9 @@ footer .footer-sec .footer-nav-3 ul b {
   .responsive-list {
     display: block !important;
   }
+  .responsive-list img {
+    width: 90% !important;
+  }
   footer .footer-sec {
     flex-direction: column;
     align-items: center;
@@ -988,7 +991,7 @@ footer .footer-sec .footer-nav-3 ul b {
   }
   .main-cont .busket {
     margin-top: 5rem;
-    width: 35% !important;
+    width: 90% !important;
   }
   .responsive-basket .responsive-list {
     display: block !important;

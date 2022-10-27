@@ -390,8 +390,8 @@ header {
     .topbutton {
         position: fixed;
         z-index: 8888888888;
-        right: 5rem;
-        bottom: 3rem;
+        right: 3rem;
+        bottom: 4.5rem;
 
         a {
             width: 3rem;
@@ -1441,7 +1441,7 @@ footer {
     }
 
     .grid {
-        grid-template-columns: auto !important;
+        grid-template-columns: 90% !important;
         justify-content: center;
 
         .productflex {
@@ -1451,7 +1451,7 @@ footer {
 
 
     footer {
-        margin-top: 240rem !important;
+        margin-top: 220rem !important;
 
         .footer-sec {
             flex-direction: column;
